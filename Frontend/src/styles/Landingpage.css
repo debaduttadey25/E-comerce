@@ -1,0 +1,99 @@
+.welcome-tag {
+  font-size: 80px;
+  font-weight: 700;
+}
+.Platform {
+  font-size: 80px;
+  font-weight: 700;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* For some browsers */
+  background-clip: text;
+  color: transparent;
+}
+
+.para-landingpage {
+  font-weight: 400;
+  font-size: 20px;
+  color: gray;
+  width: 600px;
+}
+.button-landingpage {
+  gap: 10px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #3f5efb;
+  border: 1px solid blanchedalmond;
+  border-radius: 10px;
+  font-weight: 500;
+  font-family: system-ui;
+}
+.p-div {
+  gap: 10px;
+}
+.container-div {
+    gap: 20px;
+    margin-top: 20px;
+  display: flex;
+  width: 786px;
+  align-items: center;
+  justify-content: center;
+}
+.landigpage-main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  height: 100vh;
+}
+.cards-landingpage {
+  width: 400px;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 200px;
+  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background-color: #3498db; /* blue color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.cards-landingpage-heading{
+    font-size: 20px;
+    font-weight: 600;
+}
