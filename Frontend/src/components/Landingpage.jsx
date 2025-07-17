@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/Landingpage.css";
 export const Landingpage = () => {
+   const navigate = useNavigate();
+
+
+
+
+ 
   return (
     <div className="landigpage-main-div">
       <div className="p-div">
@@ -12,7 +19,7 @@ export const Landingpage = () => {
         </div>
         <div className="button-landingpage">
           <div className="button">Sign Up</div>
-          <div className="button">Login</div>
+          <div className="button" onClick={()=>(navigate('/login'))}>Login</div>
         </div>
       </div>
       <div className="container-div">

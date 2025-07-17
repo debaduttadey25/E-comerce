@@ -1,0 +1,17 @@
+.loginpage-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginpage-container {
+  background-color: aqua;
+  height: 80vh;
+  width: 500px;
+  padding: 20px;
+}
+.loginpage-header{
+    display: flex;
+    flex-direction: column;
+}

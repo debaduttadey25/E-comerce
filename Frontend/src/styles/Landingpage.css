@@ -33,6 +33,7 @@
 }
 .button {
   width: 200px;
+  cursor: pointer;
   height: 40px;
   align-items: center;
   justify-content: center;
