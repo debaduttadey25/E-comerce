@@ -3,15 +3,82 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+    background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
 
 .loginpage-container {
-  background-color: aqua;
+background-color: white;
+border-radius: 20px;
   height: 80vh;
-  width: 500px;
-  padding: 20px;
+  width: 400px;
+  padding: 40px;
 }
 .loginpage-header{
     display: flex;
     flex-direction: column;
+}
+.label-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.input-email{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.wel-text{
+    font-size: 30px;
+    font-weight: 700;
+}
+.wel-para{
+    font-size: 14px;
+    font-weight: 400;
+}
+.remember-me{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.login-button{
+  width: 100%;
+  background-color:blueviolet;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+/* Add this to Loginpage.css */
+.popup-error {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #ff4d4f;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  animation: fadeInOut 3s forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-10px); }
 }
